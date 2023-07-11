@@ -17,7 +17,7 @@ include_once "./head/header.php";
                             <br>
                             <br>
                         </span>
-                        <img src="img/s1.png" alt="Imagen Fitness" class="img-fluid position-relative rounded-circle" data-aos="fade-right" data-aos-duration="1500">
+                        <img src="img/s1.png" alt="Imagen de Reparación de Software" class="img-fluid position-relative rounded-circle" data-aos="fade-right" data-aos-duration="1500">
                     </div>
                     <div class="col-12 col-md-6 col-lg-7">
                         <div class="row d-flex align-items-center position-relative justify-content-center px-0 g-5">
@@ -96,7 +96,7 @@ include_once "./head/header.php";
                             <br>
                             <br>
                         </span>
-                        <img src="img/s2.png" alt="Imagen Fitness" class="img-fluid position-relative" data-aos="fade-right" data-aos-duration="1500">
+                        <img src="img/s2.png" alt="Imagen de Diseño y Desarrollo web" class="img-fluid position-relative" data-aos="fade-right" data-aos-duration="1500">
                     </div>
                 </div>
             </div>
@@ -125,7 +125,7 @@ include_once "./head/header.php";
                             <br>
                             <br>
                         </span>
-                        <img src="img/s3.png" alt="Imagen Fitness" class="img-fluid position-relative rounded-circle" data-aos="fade-right" data-aos-duration="1500">
+                        <img src="img/s3.png" alt="Imagen de Creación de Sistemas" class="img-fluid position-relative rounded-circle" data-aos="fade-right" data-aos-duration="1500">
                     </div>
                     <div class="col-12 col-md-6 col-lg-7">
                         <div class="row d-flex align-items-center position-relative justify-content-center px-0 g-5">

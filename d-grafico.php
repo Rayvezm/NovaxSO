@@ -39,12 +39,12 @@ include_once "./head/header.php";
                                     <div
                                         class="row d-flex align-items-center position-relative justify-content-center px-0 g-5">
                                         <div class="col-12 col-md-6 col-lg-6">
-                                            <img src="img/ca6.png" alt="Imagen Fitness"
+                                            <img src="img/ca6.png" alt="Imagen de Diseños de Flyers"
                                                 class="img-fluid position-relative" data-aos="fade-right"
                                                 data-aos-duration="1500">
                                         </div>
                                         <div class="col-12 col-md-6 col-lg-6">
-                                            <img src="img/d2.png" alt="Imagen Fitness"
+                                            <img src="img/d2.png" alt="Imagen de Fondo de Pantalla"
                                                 class="img-fluid position-relative" data-aos="fade-left"
                                                 data-aos-duration="1500">
                                         </div>
@@ -76,11 +76,11 @@ include_once "./head/header.php";
                                     <br>
                                     <br>
                                 </span>
-                                <img src="img/logo2.png" alt="Imagen Fitness" class="img-fluid position-relative"
+                                <img src="img/logo2.png" alt="Imagen de logo" class="img-fluid position-relative"
                                     data-aos="fade-right" data-aos-duration="1500">
-                                <img src="img/logo4.png" alt="Imagen Fitness" class="img-fluid position-relative"
+                                <img src="img/logo4.png" alt="Imagen de logo" class="img-fluid position-relative"
                                     data-aos="fade-right" data-aos-duration="1500">
-                                <img src="img/logo5.png" alt="Imagen Fitness" class="img-fluid position-relative"
+                                <img src="img/logo5.png" alt="Imagen de logo" class="img-fluid position-relative"
                                     data-aos="fade-right" data-aos-duration="1500">
                             </div>
                             <div class="col-12 col-md-6 col-lg-7">
@@ -145,7 +145,7 @@ include_once "./head/header.php";
                                     <br>
                                     <br>
                                 </span>
-                                <img src="img/d4.png" alt="Imagen Fitness"
+                                <img src="img/d4.png" alt="Imagen de Fan Art"
                                     class="img-fluid position-relative rounded-circle" data-aos="fade-right"
                                     data-aos-duration="1500">
                             </div>
