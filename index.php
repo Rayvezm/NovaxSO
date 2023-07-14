@@ -2,8 +2,8 @@
 include_once "./head/header.php";
 ?>
 <div class="bg-n seccion">
-    <div class="w-100 overflow-hidden position-relative text-white bg-i" data-aos="fade">
-        <div class="position-absolute w-100 h-100 top-0 start-0"></div>
+    <div class="w-100 overflow-hidden position-relative text-white" data-aos="fade">
+        <div class="position-relative w-100 h-100 top-0 start-0 bg-i">
         <div class="container py-vh-4 position-relative mt-5 px-vw-5 text-center">
             <div class="row d-flex align-items-center justify-content-center py-vh-5">
                 <div class="col-12 col-xl-10">
