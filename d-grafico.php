@@ -62,7 +62,7 @@ include_once "./head/header.php";
                 </span>
                 <div class="w-100 position-relative text-white d-flex align-items-center">
                     <div class="container-fluid px-vw-5">
-                        <div class="row d-flex align-items-center position-relative justify-content-center px-0 g-5">
+                        <div class="row flex-wrap-reverse d-flex align-items-center position-relative justify-content-center px-0 g-5">
                             <div class="col-12 col-md-6 col-lg-5">
                                 <span class="invisible">
                                     <br>

@@ -6,12 +6,10 @@ include_once "./head/header.php";
         <div class="caja1" id="caja1">
             <span class="invisible">
                 <br>
-                <br>
-                <br>
             </span>
             <div class="w-100 position-relative text-white d-flex align-items-center">
                 <div class="container-fluid px-vw-5">
-                    <div class="row d-flex align-items-center position-relative justify-content-center px-0 g-5">
+                    <div class="row  d-flex align-items-center position-relative justify-content-center px-0 g-5">
                         <div class="col-12 col-md-6 col-lg-5">
                             <span class="invisible">
                                 <br>
@@ -92,11 +90,6 @@ include_once "./head/header.php";
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-5">
-                            <span class="invisible">
-                                <br>
-                                <br>
-                                <br>
-                            </span>
                             <img src="img/s2.png" alt="Imagen de Diseño y Desarrollo web" class="img-fluid position-relative" data-aos="fade-right" data-aos-duration="1500">
                         </div>
                     </div>
@@ -108,24 +101,14 @@ include_once "./head/header.php";
                 <br>
             </span>
         </div>
-        <span class="invisible">
-            <br><br><br><br>
-        </span>
         <div class="caja3" id="caja3">
             <span class="invisible">
-                <br>
-                <br>
-                <br>
+                <br><br><br>
             </span>
             <div class="w-100 position-relative text-white d-flex align-items-center">
                 <div class="container-fluid px-vw-5">
                     <div class="row d-flex align-items-center position-relative justify-content-center px-0 g-5">
                         <div class="col-12 col-md-6 col-lg-5">
-                            <span class="invisible">
-                                <br>
-                                <br>
-                                <br>
-                            </span>
                             <img src="img/s3.png" alt="Imagen de Creación de Sistemas" class="img-fluid position-relative rounded-circle" data-aos="fade-right" data-aos-duration="1500">
                         </div>
                         <div class="col-12 col-md-6 col-lg-7">
@@ -153,11 +136,6 @@ include_once "./head/header.php";
                     </div>
                 </div>
             </div>
-            <span class="invisible">
-                <br>
-                <br>
-                <br>
-            </span>
         </div>
         <?php
         include_once "./head/footer.php";
