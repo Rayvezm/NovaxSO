@@ -6793,7 +6793,7 @@ textarea.form-control-lg {
 .invisible {
   visibility: hidden !important; }
 
-@media screen and (min-width: 400px) and (max-width: 576px) {
+@media screen and (min-width: 1px) and (max-width: 576px) {
   .float-sm-start {
     float: left !important; }
   .float-sm-end {

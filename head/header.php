@@ -1,10 +1,3 @@
-<?php
-$directoryURI = $_SERVER['REQUEST_URI'];
-$path = parse_url($directoryURI, PHP_URL_PATH);
-$components = explode('/', $path);
-$page = $components[2];
-?>
-
 <!DOCTYPE html>
 
 <html lang="es">
@@ -29,44 +22,3 @@ $page = $components[2];
 </head>
 
 <body class="bg-n text-white">
-    <!-- menu -->
-    <nav class="navbar bg-n navbar-expand-lg h-5">
-        <div class="container-fluid bg-n">
-            <img src="./img/logo.png" alt="Logo de Novax" class="anch justify-content-center pa">
-            <button class="navbar-toggler bg-b" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon text-white"></span>
-                <br>
-            </button>
-            <div class="collapse navbar-collapse bg-n text-center" id="navbarTogglerDemo02" data-simplebar="" data-simplebar-auto-hide="true">
-                <ul class="navbar-nav mx-auto bg-n mb-2 mb-lg-0 list-group list-group-vertical sidebar-menu do-nicescrol nav">
-                    <li class="nav-item">
-                        <a class="<?php if ($page == "index.php") {
-                                                                                                echo "nav-link link link-fancy-light";
-                                                                                            } else {
-                                                                                                echo "nav-link link";
-                                                                                            } ?> mx-2 fs-5 text-white mt-0 px-2" aria-current="page" href="./index.php" aria-label="Inicio">
-                            Inicio
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="<?php if ($page == "servicios-informaticos.php") {
-                                                                                                echo "nav-link link link-fancy-light";
-                                                                                            } else {
-                                                                                                echo "nav-link link";
-                                                                                            } ?> mx-2 fs-5 text-white mt-0 px-2"  href="./servicios-informaticos.php" aria-label="Servicios Informáticos">
-                            Servicios Informáticos
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="<?php if ($page == "d-grafico.php") {
-                                                                                                echo "nav-link link link-fancy-light";
-                                                                                            } else {
-                                                                                                echo "nav-link link";
-                                                                                            } ?> mx-2 fs-5 text-white mt-0 px-2"  href="./d-grafico.php" aria-label="Diseño Gráfico">
-                            Diseño Gráfico
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>

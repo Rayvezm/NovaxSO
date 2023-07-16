@@ -1,6 +1,35 @@
 <?php
 include_once "./head/header.php";
 ?>
+ <!-- menu -->
+ <nav class="navbar bg-n navbar-expand-lg h-5">
+        <div class="container-fluid bg-n">
+            <img src="./img/logo.png" alt="Logo de Novax" class="anch justify-content-center pa">
+            <button class="navbar-toggler bg-b" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-white"></span>
+                <br>
+            </button>
+            <div class="collapse navbar-collapse bg-n text-center" id="navbarTogglerDemo02" data-simplebar="" data-simplebar-auto-hide="true">
+                <ul class="navbar-nav mx-auto bg-n mb-2 mb-lg-0 list-group list-group-vertical sidebar-menu do-nicescrol nav">
+                    <li class="nav-item">
+                        <a class="nav-link link mx-2 fs-5 text-white mt-0 px-2" aria-current="page" href="./index.php" aria-label="Inicio">
+                            Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link link-fancy-light mx-2 fs-5 text-white mt-0 px-2"  href="./servicios-informaticos.php" aria-label="Servicios Informáticos">
+                            Servicios Informáticos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link mx-2 fs-5 text-white mt-0 px-2"  href="./d-grafico.php" aria-label="Diseño Gráfico">
+                            Diseño Gráfico
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 <div class="bg-n seccion">
     <div class="w-100 overflow-hidden position-relative text-white" data-aos="fade">
         <div class="caja1" id="caja1">
