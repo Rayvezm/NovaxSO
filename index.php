@@ -4,7 +4,7 @@ include_once "./head/header.php";
  <!-- menu -->
  <nav class="navbar bg-n navbar-expand-lg h-5">
         <div class="container-fluid bg-n">
-            <img src="./img/logo.png" alt="Logo de Novax" class="anch justify-content-center pa">
+            <img src="./img/logo.webp" alt="Logo de Novax" class="anch justify-content-center pa">
             <button class="navbar-toggler bg-b" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon text-white"></span>
                 <br>
@@ -72,7 +72,7 @@ include_once "./head/header.php";
                             <span class="invisible">
                                 <br>
                             </span>
-                            <img src="img/ca1.png" alt="Imagen de Servicios Informáticos" class="img-fluid position-relative rounded-circle" data-aos="fade-right" data-aos-duration="1500">
+                            <img src="img/ca1.webp" alt="Imagen de Servicios Informáticos" class="img-fluid position-relative rounded-circle" data-aos="fade-right" data-aos-duration="1500">
                         </div>
                         <div class="col-12 col-md-6 col-lg-8">
                             <div class="row d-flex align-items-center position-relative justify-content-center px-0 g-5">
@@ -115,7 +115,7 @@ include_once "./head/header.php";
                                     <br>
                                 </span>
                                 <div class="card mb-3 bg-transparent rounded-5  border-primary ">
-                                    <img src="./img/ca2.png" class="card-img-top rounded-5" alt="Imagen de Reparación de Software">
+                                    <img src="./img/ca2.webp" class="card-img-top rounded-5" alt="Imagen de Reparación de Software"  width="374.28">
                                     <div class="card-body text-center text-white">
                                         <h5 class="card-title">Reparación de Software</h5>
                                         <p class="card-text">Realizamos instalaciones de sistemas operativos como
@@ -140,7 +140,7 @@ include_once "./head/header.php";
                                     <br>
                                 </span>
                                 <div class="card border-primary mb-3 bg-transparent rounded-5 tt3">
-                                    <img src="./img/ca3.png" class="card-img-top rounded-5" alt="Imagen de Diseño y Desarrollo Web">
+                                    <img src="./img/ca3.webp" class="card-img-top rounded-5" alt="Imagen de Diseño y Desarrollo Web"  width="374.28">
                                     <div class="card-body text-center text-white">
                                         <h5 class="card-title">Diseño y Desarrollo Web</h5>
                                         <p class="card-text">
@@ -172,7 +172,7 @@ include_once "./head/header.php";
                                     <br>
                                 </span>
                                 <div class="card border-primary mb-3 bg-transparent rounded-5">
-                                    <img src="./img/ca4.png" class="card-img-top rounded-5" alt="Imagen de Creación de Sistemas">
+                                    <img src="./img/ca4.webp" class="card-img-top rounded-5" alt="Imagen de Creación de Sistemas" width="374.28">
                                     <div class="card-body text-center text-white">
                                         <h5 class="card-title">Creación de Sistemas</h5>
                                         <p class="card-text">Desarrollo de software básico para la automatización de
@@ -217,7 +217,7 @@ include_once "./head/header.php";
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 text-center">
-                            <img src="img/ca5.png" alt="Imagen de Diseño Gráfico" class="img-fluid position-relative rounded-circle" data-aos="fade-right" data-aos-duration="1500">
+                            <img src="img/ca5.webp" alt="Imagen de Diseño Gráfico" class="img-fluid position-relative rounded-circle" data-aos="fade-right" data-aos-duration="1500">
                         </div>
                     </div>
                 </div>
@@ -256,8 +256,8 @@ include_once "./head/header.php";
                                     <br>
                                     <br>
                                 </span>
-                                <div class="card mb-3 bg-transparent rounded-5  border-primary tt2">
-                                    <img src="./img/ca6.png" class="card-img-top rounded-5" alt="Imagen de Diseño de Flyers y Fondos de Pantalla">
+                                <div class="card mb-3 bg-transparent rounded-5  border-primary tt2" width="374.28">
+                                    <img src="./img/ca6.webp" class="card-img-top rounded-5" alt="Imagen de Diseño de Flyers y Fondos de Pantalla">
                                     <div class="card-body text-center text-white">
                                         <h5 class="card-title">Diseño de Flyers y Fondos de Pantalla</h5>
                                         <p class="card-text">Realizamos cualquier flyer que necesites para tu negocio,
@@ -283,7 +283,7 @@ include_once "./head/header.php";
                                     <br>
                                 </span>
                                 <div class="card border-primary mb-3 bg-transparent rounded-5">
-                                    <img src="./img/ca7.png" class="card-img-top rounded-5 bg-l" alt="Imagen de Diseño de Logos">
+                                    <img src="./img/ca7.webp" class="card-img-top rounded-5 bg-l" alt="Imagen de Diseño de Logos" width="374.28">
                                     <div class="card-body text-center text-white">
                                         <h5 class="card-title">Diseño de Logos</h5>
                                         <p class="card-text">
@@ -302,7 +302,7 @@ include_once "./head/header.php";
                                     <br>
                                 </span>
                                 <div class="card border-primary mb-3 bg-transparent rounded-5 tt">
-                                    <img src="./img/ca8.png" class="card-img-top rounded-5" alt="Imagen de Creación de Fan Art">
+                                    <img src="./img/ca8.webp" class="card-img-top rounded-5" alt="Imagen de Creación de Fan Art" width="374.28">
                                     <div class="card-body text-center text-white">
                                         <h5 class="card-title">Creación de Fan Art</h5>
                                         <p class="card-text">Elaboramos Fan Art de tus personajes favoritos para
@@ -335,7 +335,7 @@ include_once "./head/header.php";
                                 <br>
                                 <br>
                             </span>
-                            <img src="img/ca9.png" alt="Imagen de Servicios de Community Manager" class="img-fluid position-relative rounded-circle" data-aos="fade-right" data-aos-duration="1500">
+                            <img src="img/ca9.webp" alt="Imagen de Servicios de Community Manager" class="img-fluid position-relative rounded-circle" data-aos="fade-right" data-aos-duration="1500">
                         </div>
                         <div class="col-12 col-md-6 col-lg-8">
                             <div class="row d-flex align-items-center position-relative justify-content-center px-0 p g-5">

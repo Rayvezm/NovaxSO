@@ -11,20 +11,27 @@
                     <!-- Social Networks -->
                     <!-- FB -->
                     <a href="https://www.facebook.com/profile.php?id=100094303790573&mibextid=ZbWKwL" target="_blank" class="main-free__nav-social-networks-link-item decor">
-                        <img alt="Logo de Facebook" src="./img/Facebook.png" class="social">
+                        <img alt="Logo de Facebook" src="./img/facebook.webp" class="social">
                     </a>
                     <!-- Ig -->
                     <a href="https://www.instagram.com/novaxsolutions/" target="_blank" class="main-free__nav-social-networks-link-item decor">
-                        <img alt="Logo de Instagram" src="./img/Instagram.png" class="social">
+                        <img alt="Logo de Instagram" src="./img/instagram.webp" class="social">
                     </a>
                     <!-- Wh -->
                     <a href=" https://wa.me/584120407858" target="_blank" class="main-free__nav-social-networks-link-item decor">
-                        <img alt="Logo de WhatsApp" src="./img/WhatsApp.png" class="social">
+                        <img alt="Logo de WhatsApp" src="./img/whatsapp.webp" class="social">
                     </a>
                 </div>
             </div>
             <div class="container d-flex justify-content-center">
-                <img src="./img/logo.png" alt="Logo de Novax" class="w align-items-center justify-items-center container-fluid">
+                <img src="./img/logo.webp" alt="Logo de Novax" class="w align-items-center justify-items-center container-fluid">
+            </div>
+            <div class="container slo justify-content-center">
+                <i class="position-relative text-center position-relative lr px-sm-3 px-lg-0 text-white">SOLUCIONES INNOVADORAS PARA TUS NECESIDADES DIGITALES</i>
+            </div>
+            <div class="container justify-content-center">
+                <p class="text-white text-center copy">Todos los derechos reservados. © 2023 Novax Solutions
+                </p>
             </div>
         </div>
     </div>

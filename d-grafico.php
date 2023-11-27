@@ -4,7 +4,7 @@ include_once "./head/header.php";
  <!-- menu -->
  <nav class="navbar bg-n navbar-expand-lg h-5">
         <div class="container-fluid bg-n">
-            <img src="./img/logo.png" alt="Logo de Novax" class="anch justify-content-center pa">
+            <img src="./img/logo.webp" alt="Logo de Novax" class="anch justify-content-center pa">
             <button class="navbar-toggler bg-b" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon text-white"></span>
                 <br>
@@ -65,10 +65,10 @@ include_once "./head/header.php";
                                 <div class="container-fluid px-vw-5">
                                     <div class="row d-flex align-items-center position-relative justify-content-center px-0 g-5">
                                         <div class="col-12 col-md-6 col-lg-6">
-                                            <img src="img/ca6.png" alt="Imagen de Diseños de Flyers" class="img-fluid position-relative" data-aos="fade-right" data-aos-duration="1500">
+                                            <img src="img/ca6.webp" alt="Imagen de Diseños de Flyers" class="img-fluid position-relative" data-aos="fade-right" data-aos-duration="1500">
                                         </div>
                                         <div class="col-12 col-md-6 col-lg-6">
-                                            <img src="img/d2.png" alt="Imagen de Fondo de Pantalla" class="img-fluid position-relative" data-aos="fade-left" data-aos-duration="1500">
+                                            <img src="img/d2.webp" alt="Imagen de Fondo de Pantalla" class="img-fluid position-relative" data-aos="fade-left" data-aos-duration="1500">
                                         </div>
                                     </div>
                                 </div>
@@ -98,9 +98,9 @@ include_once "./head/header.php";
                                     <br>
                                     <br>
                                 </span>
-                                <img src="img/logo2.png" alt="Imagen de logo" class="img-fluid position-relative" data-aos="fade-right" data-aos-duration="1500">
-                                <img src="img/logo4.png" alt="Imagen de logo" class="img-fluid position-relative" data-aos="fade-right" data-aos-duration="1500">
-                                <img src="img/logo5.png" alt="Imagen de logo" class="img-fluid position-relative" data-aos="fade-right" data-aos-duration="1500">
+                                <img src="img/logo2.webp" alt="Imagen de logo" class="img-fluid position-relative" data-aos="fade-right" data-aos-duration="1500">
+                                <img src="img/logo4.webp" alt="Imagen de logo" class="img-fluid position-relative" data-aos="fade-right" data-aos-duration="1500">
+                                <img src="img/logo5.webp" alt="Imagen de logo" class="img-fluid position-relative" data-aos="fade-right" data-aos-duration="1500">
                             </div>
                             <div class="col-12 col-md-6 col-lg-7">
                                 <div class="row d-flex align-items-center position-relative justify-content-center px-0 g-5">
@@ -158,7 +158,7 @@ include_once "./head/header.php";
                                     <br>
                                     <br>
                                 </span>
-                                <img src="img/d4.png" alt="Imagen de Fan Art" class="img-fluid position-relative rounded-circle" data-aos="fade-right" data-aos-duration="1500">
+                                <img src="img/d4.webp" alt="Imagen de Fan Art" class="img-fluid position-relative rounded-circle" data-aos="fade-right" data-aos-duration="1500">
                             </div>
                         </div>
                     </div>
