@@ -13,3 +13,11 @@ window.addEventListener('scroll', function () {
 
     console.log(scrollpos)
 })
+
+function mayus(e) {
+    e.value = e.value.toUpperCase();
+}
+window.onload = function () {
+    $('#onloader').detach();
+    $('body').removeClass('overflow-hidden');
+}

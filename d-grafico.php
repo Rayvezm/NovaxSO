@@ -83,6 +83,7 @@ include_once "./head/header.php";
                     </span>
                 </div>
             </div>
+        </div>
             <div class="caja2" id="caja2">
                 <span class="invisible">
                     <br>
@@ -163,7 +164,6 @@ include_once "./head/header.php";
                         </div>
                     </div>
                 </div>
-            </div>
             <?php
             include_once "./head/footer.php";
             ?>

@@ -47,8 +47,10 @@
     });
 </script>
 <!-- jquery -->
-<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
-
+<script src="./js/jquery-3.7.1.js"></script>
+<script type='text/javascript'>
+	document.oncontextmenu = function(){return false}
+</script>
 </body>
 
 </html>

@@ -2197,7 +2197,7 @@ textarea.form-control-lg {
   --bs-btn-line-height: 1.5;
   --bs-btn-color: #202020;
   --bs-btn-bg: transparent;
-  --bs-btn-border-width: 1px;
+  --bs-btn-border-width: 3px !important;
   --bs-btn-border-color: transparent;
   --bs-btn-border-radius: 99rem;
   --bs-btn-hover-border-color: transparent;
@@ -10043,10 +10043,19 @@ font-family: Helvetica, sans-serif, Arial;
 .bg-b{
     background-color: #0046ad;
 }
+.btn-bg-b{
+  background-color: #0046ad !important;
+}
 .bg-i{
     background: url(../img/novax.webp) no-repeat;
     background-size: 100% 100%;
     height: 580px !important;
+}
+.resize-n{
+  resize: none !important;
+}
+select option {
+  background: #000;
 }
 .green{
     color: #0046ad;
@@ -10058,32 +10067,32 @@ font-family: Helvetica, sans-serif, Arial;
     background-color: #000;
 }
 .caja1{
-  background-color: #030303;
+  background-image: url("../img/caja1.jpeg");
   background-size: 100% 100%;
 }
 .caja2{
-background-color: #121212;
-background-size: 100% 100%;
+  background-image: url("../img/caja2.jpeg");
+  background-size: 100% 100%;
 }
 .caja3{
-background-color: #030303;
-background-size: 100% 100%;
+  background-image: url("../img/caja1.jpeg");
+  background-size: 100% 100%;
 }
 .caja4{
-background-color: #121212;
-background-size: 100% 100%;
+  background-image: url("../img/caja2.jpeg");
+  background-size: 100% 100%;
 }
 .caja5{
-background-color: #030303;
-background-size: 100% 100%;
+  background-image: url("../img/caja1.jpeg");
+  background-size: 100% 100%;
 }
 .caja6{
-background-color: #121212;
-background-size: 100% 100%;
+  background-image: url("../img/caja2.jpeg");
+  background-size: 100% 100%;
 }
 .caja7{
-background-color: #030303;
-background-size: 100% 100%;
+  background-image: url("../img/caja1.jpeg");
+  background-size: 100% 100%;
 }
 
 .marg{
@@ -10142,20 +10151,23 @@ margin:50px;
 .copy{
   font-size: 16px !important;
 }
+.bg-darked2 {
+  background-color: rgba(0,0,0,.7)
+}
 @media screen and (max-width: 215px){
   .anch{
     width: 100%;
   }
 }
-    @media screen and (max-width: 992px){
-      .pa{
-        position: relative;
-      }
-    }
-    .lr{
-      left: 0;
-      right: 0;
-    }
+@media screen and (max-width: 992px){
+  .pa{
+    position: relative;
+  }
+}
+.lr{
+  left: 0;
+  right: 0;
+}
 .bg-l{
   background-color: #020611;
 }
@@ -10182,4 +10194,84 @@ margin:50px;
 .slo{
   display: flex;
 }
+}
+.form-control{
+  border: 0px solid #e5eaef !important;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: #fff !important;
+}
+
+.form-control:focus{
+  background-color: rgba(0,0,0,.2) !important;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.45) !important;
+}
+.card{
+  margin-bottom: 25px; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+  border: none ;
+  background-color: rgba(0,0,0,.5) !important;
+}
+.border-b{
+  animation: 6s infinite alternate linear -2s;
+  animation-name: colors;
+}
+.form{
+  animation: 6s infinite alternate linear -2s;
+  animation-name: mover;
+}
+@keyframes colors{
+  0%{
+    border:4px solid #720fd6;
+    transform: translateY(0);
+  }
+  25%{
+    border:4px solid #1a1aff;
+    border-right:4px solid #720fd6;
+    transform: translateY(-15px);
+  }
+  50%{
+    border:4px solid #1a1aff;
+    border-bottom:4px solid #720fd6;
+    transform: translateY(0);
+  }
+  75%{
+    border:4px solid #1a1aff;
+    border-left:4px solid #720fd6;
+    transform: translateY(-15px);
+  }
+  100%{
+    border:4px solid #1a1aff;
+    border-top:4px solid #720fd6;
+    transform: translateY(0);
+  }
+}
+@keyframes mover{
+  0%{
+    border:4px solid #720fd6;
+  }
+  25%{
+    border:4px solid #1a1aff;
+    border-right:4px solid #720fd6;
+  }
+  50%{
+    border:4px solid #1a1aff;
+    border-bottom:4px solid #720fd6;
+  }
+  75%{
+    border:4px solid #1a1aff;
+    border-left:4px solid #720fd6;
+  }
+  100%{
+    border:4px solid #1a1aff;
+    border-top:4px solid #720fd6;
+  }
+}
+.display-huge{
+  text-shadow: #fff 4px 1px !important;
+}
+.lds-ring{
+  height: 100vh;
+}
+.img-loader{
+  width: 200px;
 }
